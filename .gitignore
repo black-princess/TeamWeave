@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Local persistent database
+data/
+
+# Environment variables
+.env
+.env.local
+
+# Build artifacts & binaries
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio / IDE cache
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
